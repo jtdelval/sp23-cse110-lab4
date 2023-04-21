@@ -1,0 +1,2 @@
+1. The bug is that the inputs are strings-- and when trying to add those two "numbers" together, Javascript perceives the + as a string concatenation operation, as opposed to addition.
+2. To fix it, you'd need to typecast both num1 and num2 into integers using parseInt.
